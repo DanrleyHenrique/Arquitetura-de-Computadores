@@ -1,0 +1,13 @@
+
+
+.data 
+	 
+	.asciiz "Hello Word"
+	
+	
+.text
+	
+main: 	
+	lui $4, 0x1001
+	addi $2, $0 , 4
+	syscall
